@@ -40,10 +40,10 @@ Before you begin, ensure that you have the following prerequisites installed on 
 
 ## Running from command line
 *Use the cd command to change the current directory to the location where your pom.xml file 
-mvn test - To run all tests
-mvn test -Dbrowser=chrome - to chose browser
-mvn test -Dtest=uiTests -Dbrowser=chrome
-mvn clean test -PuiTests - to run one Profile
+1. mvn test - To run all tests
+2. mvn test -Dbrowser=chrome - to chose browser
+3. mvn test -Dtest=uiTests -Dbrowser=chrome
+4. mvn clean test -PuiTests - to run one Profile
 
 ## Non implemented features
 1. I had Jenkins setup through desktop rancher to hit remote machine on moon ui
