@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite parallel="tests" name="methods" thread-count = "4">
+
+    <listeners>
+        <listener class-name="testComponents.Listeners"/>
+    </listeners>
+
+    <test  name="Login">
+        <classes>
+            <class name="UITests.LandingPageTest"></class>
+        </classes>
+    </test>
+
+    <test  name="End2End">
+        <classes>
+            <class name="UITests.InventoryPageTest"/>
+        </classes>
+    </test>
+
+</suite>
+
+

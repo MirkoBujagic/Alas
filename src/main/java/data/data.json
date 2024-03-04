@@ -1,0 +1,20 @@
+[
+  {
+    "userName" : "standard_user",
+    "password" : "secret_sauce",
+    "firstName" : "John",
+    "lastName" : "Doe",
+    "postalCode" : "2100",
+    "product1" : "Onesie",
+    "product2" : "Backpack"
+  },
+  {
+    "userName" : "locked_out_user",
+    "password" : "secret_sauce",
+    "firstName" : "Paul",
+    "lastName" : "Hendrix",
+    "postalCode" : "11000",
+    "product1" : "Onesie",
+    "product2" : "Backpack"
+  }
+]
