@@ -46,5 +46,5 @@ mvn test -Dtest=uiTests -Dbrowser=chrome
 mvn clean test -PuiTests - to run one Profile
 
 ## Non implemented features
-1. I had Jenkins setup trough desktop rancher to hit remote machine on moon ui
+1. I had Jenkins setup through desktop rancher to hit remote machine on moon ui
 
